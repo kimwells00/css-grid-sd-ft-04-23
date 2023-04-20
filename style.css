@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+}
+.grid-box {
+  height: 100px;
+  width: 100%;
+  border: 2px solid red;
+}
+.imposter {
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: auto;
+  gap: 10px;
+}

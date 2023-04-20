@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+}
+.card {
+  background-size: cover;
+}
+.card-tall {
+  grid-row: span 2 / auto;
+}
+.card-wide {
+  grid-column: span 2 / auto;
+}
+
+.cat {
+  grid-row: span 4 / auto;
+}
+.cat6 {
+  grid-column: span 2 / auto;
+}
+.cat2 {
+  grid-column: span 2 / auto;
+}
+.cat3 {
+  grid-row: span 2 / auto;
+}
